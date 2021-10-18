@@ -8,6 +8,8 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
 })
 export class LoginPageComponent implements OnInit {
 
+  
+
   constructor(public afAuth: AngularFireAuth) { }
 
   ngOnInit(): void {
